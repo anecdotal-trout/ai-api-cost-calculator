@@ -1,0 +1,17 @@
+provider,model,input_price_per_1m_tokens,output_price_per_1m_tokens,context_window,max_output_tokens,supports_vision,supports_function_calling,category
+OpenAI,gpt-4o,2.50,10.00,128000,16384,yes,yes,frontier
+OpenAI,gpt-4o-mini,0.15,0.60,128000,16384,yes,yes,lightweight
+OpenAI,gpt-4.1,2.00,8.00,1048576,32768,yes,yes,frontier
+OpenAI,gpt-4.1-mini,0.40,1.60,1048576,32768,yes,yes,lightweight
+OpenAI,gpt-4.1-nano,0.10,0.40,1048576,32768,yes,yes,lightweight
+OpenAI,o3-mini,1.10,4.40,200000,100000,no,yes,reasoning
+Anthropic,claude-opus-4,15.00,75.00,200000,32000,yes,yes,frontier
+Anthropic,claude-sonnet-4,3.00,15.00,200000,64000,yes,yes,frontier
+Anthropic,claude-haiku-3.5,0.80,4.00,200000,8192,yes,yes,lightweight
+Google,gemini-2.5-pro,1.25,10.00,1048576,65536,yes,yes,frontier
+Google,gemini-2.5-flash,0.15,0.60,1048576,65536,yes,yes,lightweight
+Google,gemini-2.0-flash,0.10,0.40,1048576,8192,yes,yes,lightweight
+Mistral,mistral-large,2.00,6.00,128000,8192,no,yes,frontier
+Mistral,mistral-small,0.10,0.30,32000,8192,no,yes,lightweight
+Cohere,command-r-plus,2.50,10.00,128000,4096,no,yes,frontier
+Cohere,command-r,0.15,0.60,128000,4096,no,yes,lightweight
